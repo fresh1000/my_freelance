@@ -1,0 +1,14 @@
+package source;
+
+public class DlgCity extends Dlg{
+
+	
+	public DlgCity() {
+		super();
+	}
+
+	public Object createObject() throws Exception {
+		return null;
+	}
+	
+}

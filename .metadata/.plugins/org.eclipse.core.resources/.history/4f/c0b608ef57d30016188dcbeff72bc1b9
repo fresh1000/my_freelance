@@ -1,0 +1,19 @@
+package source;
+
+public class City extends AnyData {
+	String cityName;
+
+	public City(String name, String cityName) {
+		this.name = name;
+		this.cityName = cityName;
+	}
+
+	public Dlg showDialog(boolean b) {
+		return null;
+	}
+
+	public Dlg showSonDialog() {
+		return null;
+	}
+	
+}

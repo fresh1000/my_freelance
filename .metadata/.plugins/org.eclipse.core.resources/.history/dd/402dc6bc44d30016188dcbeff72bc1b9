@@ -1,0 +1,14 @@
+package source;
+
+public class Ministry extends AnyData {
+	String ministerName;
+	int level;
+	public Ministry(String name, String ministerName, int level) throws Exception{
+		if(level<1 || level>4)
+			throw new Exception("Incorrect level");
+		this.ministerName = ministerName;
+		this.level = level;
+	}
+	
+	
+}

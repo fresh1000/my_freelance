@@ -1,0 +1,13 @@
+package source;
+
+public class Ministry extends AnyData {
+	String ministerName;
+	
+
+	public Ministry(String name, String ministerName) {
+		this.name = name;
+		this.ministerName = ministerName;
+		
+	}
+
+}

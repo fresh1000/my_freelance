@@ -1,0 +1,12 @@
+package source;
+
+public abstract class AnyData {
+protected String name;
+
+@Override
+public String toString() {
+	return name;
+}
+
+
+}

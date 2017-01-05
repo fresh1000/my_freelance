@@ -1,0 +1,14 @@
+package source;
+
+public class DlgMinistry extends Dlg{
+
+	public DlgMinistry() {
+		super();
+		setBounds (100, 100, 100, 100);
+	}
+
+	public Object createObject() throws Exception {
+		return null;
+	}
+
+}

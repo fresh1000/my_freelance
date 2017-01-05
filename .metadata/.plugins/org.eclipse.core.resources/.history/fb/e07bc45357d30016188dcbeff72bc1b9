@@ -1,0 +1,23 @@
+package source;
+
+public class Ministry extends AnyData {
+	String ministerName;
+	
+
+	public Ministry(String name, String ministerName) {
+		this.name = name;
+		this.ministerName = ministerName;
+	}
+
+
+	public Dlg showDialog(boolean b) {
+		return null;
+	}
+
+
+	public Dlg showSonDialog() {
+		return null;
+	}
+	
+
+}

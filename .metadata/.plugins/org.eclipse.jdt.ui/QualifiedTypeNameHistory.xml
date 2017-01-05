@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Event"/>
-<fullyQualifiedTypeName name="Arrival"/>
-<fullyQualifiedTypeName name="Termination"/>
-<fullyQualifiedTypeName name="EndOfService"/>
-<fullyQualifiedTypeName name="CalendarDate"/>
-<fullyQualifiedTypeName name="Book"/>
-<fullyQualifiedTypeName name="TunnelTollCharge"/>
-<fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
-<fullyQualifiedTypeName name="TunnelTollChargeUser"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="java.io.Closeable"/>
 <fullyQualifiedTypeName name="alexmortgagecalculator4.MortgageLoan"/>
@@ -33,7 +24,6 @@
 <fullyQualifiedTypeName name="javax.swing.InputMap"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
-<fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="java.awt.Component"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="source.Ministry"/>
+<fullyQualifiedTypeName name="source.DlgStation"/>
+<fullyQualifiedTypeName name="source.Trip"/>
+<fullyQualifiedTypeName name="java.nio.channels.ShutdownChannelGroupException"/>
+<fullyQualifiedTypeName name="source.DlgMinistry"/>
+<fullyQualifiedTypeName name="source.DlgCity"/>
 </qualifiedTypeNameHistroy>

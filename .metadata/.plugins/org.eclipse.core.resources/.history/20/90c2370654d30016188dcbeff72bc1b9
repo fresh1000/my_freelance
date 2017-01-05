@@ -1,0 +1,25 @@
+package source;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class DlgCity extends Dlg{
+	private JTextField textFieldCity;
+
+	
+	public DlgCity() {
+		super();
+		
+		JLabel lblCity = new JLabel("City");
+		contentPanel.add(lblCity);
+		
+		textFieldCity = new JTextField();
+		contentPanel.add(textFieldCity);
+		textFieldCity.setColumns(10);
+	}
+
+	public Object createObject() throws Exception {
+		if(!ok)return null;
+		
+	}
+	
+}
