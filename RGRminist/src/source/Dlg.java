@@ -86,6 +86,7 @@ public abstract class Dlg extends JDialog {
 	}
 
 	public abstract Object createObject() throws Exception;
+	
 	public void setEditable (boolean b){
 		okButton.setVisible(b);
 		if(b)

@@ -13,7 +13,7 @@ public class Trip extends AnyData {
 	}
 
 	public String toString() {
-		return numberTrip + " " + startCity + "-" + finishCity;
+		return name + " " + numberTrip + " " + startCity + "-" + finishCity;
 	}
 
 	public Dlg showDialog(boolean b) {
