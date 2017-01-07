@@ -1,11 +1,11 @@
 package source;
 
 public class City extends AnyData {
-	String cityName;
+	String ministerName;
 
-	public City(String name, String cityName) {
+	public City(String name, String ministerName) {
 		this.name = name;
-		this.cityName = cityName;
+		this.ministerName = ministerName;
 	}
 
 	public Dlg showDialog(boolean b) {

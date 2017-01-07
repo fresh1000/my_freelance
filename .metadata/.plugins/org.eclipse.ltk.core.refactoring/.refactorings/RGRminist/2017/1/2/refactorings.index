@@ -12,3 +12,16 @@
 1483628865297	Rename local variable 'c'
 1483718884683	Delete element
 1483719479473	Delete element
+1483805121424	Rename field 'textFieldMinistry'
+1483805181156	Rename field 'textFieldStation'
+1483805216640	Rename local variable 'nameStation'
+1483806640058	Rename local variable 'cityName'
+1483806652083	Rename field 'cityName'
+1483806686420	Rename field 'textFieldCity'
+1483806749858	Rename local variable 'nameStation'
+1483806761925	Rename field 'nameStation'
+1483810619838	Rename field 'numberTrip'
+1483810667892	Rename local variable 'numberTrip'
+1483814348233	Rename local variable 'cntPr'
+1483814360141	Rename local variable 'cntGr'
+1483814368173	Rename local variable 'cntSt'

@@ -12,13 +12,14 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.Font;
 
 public abstract class Dlg extends JDialog {
 
 	protected final JPanel contentPanel = new JPanel();
 	protected JButton okButton = new JButton("OK");
 	protected JButton cancelButton = new JButton("Cancel");
-	protected JTextField textFieldMinistry;
+	protected JTextField textFieldAnyName;
 	protected boolean ok;
 
 	/**
@@ -39,19 +40,22 @@ public abstract class Dlg extends JDialog {
 	 */
 	public Dlg() {
 		setModal(true);
-		setBounds(100, 100, 393, 171);
+		setBounds(100, 100, 246, 193);
 		getContentPane().setLayout(new BorderLayout());
-		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		contentPanel.setLayout(null);
 		{
-			JLabel lblNewLabel = new JLabel("Ministry");
+			JLabel lblNewLabel = new JLabel("Name");
+			lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 14));
+			lblNewLabel.setBounds(64, 44, 35, 14);
 			contentPanel.add(lblNewLabel);
 		}
 		{
-			textFieldMinistry = new JTextField();
-			contentPanel.add(textFieldMinistry);
-			textFieldMinistry.setColumns(10);
+			textFieldAnyName = new JTextField();
+			textFieldAnyName.setBounds(109, 43, 86, 20);
+			contentPanel.add(textFieldAnyName);
+			textFieldAnyName.setColumns(10);
 		}
 		{
 			JPanel buttonPane = new JPanel();

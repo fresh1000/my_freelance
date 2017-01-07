@@ -1,6 +1,8 @@
 package source;
 
-public abstract class AnyData {
+import java.io.Serializable;
+
+public abstract class AnyData implements Serializable {
 	protected String name;
 
 	public String toString() {

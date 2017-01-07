@@ -7,6 +7,7 @@ public class DlgMinistry extends Dlg{
 
 	public DlgMinistry() {
 		super();
+		setTitle("Ministry");
 		setBounds (100, 100, 331, 119);
 		
 		JLabel lblNewLabel = new JLabel("Name minister");
@@ -20,13 +21,13 @@ public class DlgMinistry extends Dlg{
 	public DlgMinistry(Object data) {
 		this();
 		Ministry m = (Ministry) data;
-		textFieldMinistry.setText(m.name);
+		textFieldAnyName.setText(m.name);
 		textFieldNameMinister.setText(m.ministerName);
 	}
 
 	public Object createObject() throws Exception {
 		if(!ok) return null;
-		String name = textFieldMinistry.getText();
+		String name = textFieldAnyName.getText();
 		String fioMinister = textFieldNameMinister.getText();
 		return new Ministry(name, fioMinister);
 	}

@@ -1,11 +1,11 @@
 package source;
 
 public class Station extends AnyData {
-	String nameStation;
+	String addressStation;
 
-	public Station(String name, String nameStation) {
+	public Station(String name, String addressStation) {
 		this.name = name;
-		this.nameStation = nameStation;
+		this.addressStation = addressStation;
 	}
 
 	public Dlg showDialog(boolean b) {

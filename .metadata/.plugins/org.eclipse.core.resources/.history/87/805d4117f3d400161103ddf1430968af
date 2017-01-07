@@ -1,0 +1,39 @@
+package source;
+
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import java.awt.Font;
+
+public class DlgCity extends Dlg {
+	private JTextField textFieldCity;
+
+	public DlgCity() {
+		setTitle("City");
+		setBounds(100, 100, 273, 195);
+		contentPanel.setLayout(null);
+
+		textFieldCity = new JTextField();
+		textFieldCity.setBounds(109, 72, 86, 20);
+		contentPanel.add(textFieldCity);
+		textFieldCity.setColumns(10);
+		
+		JLabel lblMinisterInCity = new JLabel("Minister");
+		lblMinisterInCity.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblMinisterInCity.setBounds(54, 73, 45, 14);
+		contentPanel.add(lblMinisterInCity);
+	}
+
+	public DlgCity(Object data) {
+		this();
+		City c = (City) data;
+		textFieldMinistry.setText(c.name);
+		textFieldCity.setText(c.cityName);
+	}
+	public Object createObject() throws Exception {
+		if (!ok)
+			return null;
+		String name = textFieldMinistry.getText();
+		String cityName = textFieldCity.getText();
+		return new City(name, cityName);
+	}
+}

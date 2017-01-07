@@ -1,19 +1,19 @@
 package source;
 
 public class Trip extends AnyData {
-	String numberTrip;
+	double priceTrip;
 	String startCity;
 	String finishCity;
 
-	public Trip(String name, String numberTrip, String startCity, String finishCity) {
+	public Trip(String name, double priceTrip, String startCity, String finishCity) {
 		this.name = name;
-		this.numberTrip = numberTrip;
+		this.priceTrip = priceTrip;
 		this.startCity = startCity;
 		this.finishCity = finishCity;
 	}
 
 	public String toString() {
-		return name + " " + numberTrip + " " + startCity + "-" + finishCity;
+		return name + " " + startCity +"-"+ finishCity + " " + priceTrip;
 	}
 
 	public Dlg showDialog(boolean b) {
