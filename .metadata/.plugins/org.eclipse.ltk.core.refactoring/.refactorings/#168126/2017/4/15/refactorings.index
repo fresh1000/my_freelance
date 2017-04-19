@@ -1,0 +1,10 @@
+1491466353828	Move files
+1491466556420	Rename type 'Laptop'
+1491467934341	Encapsulate field 'display'
+1491467938309	Encapsulate field 'dimention'
+1491473679572	Rename method 'printAssignedLaptop'
+1491473747384	Rename method 'returnLaptop'
+1491473759872	Rename method 'assignLaptop'
+1491473784762	Rename method 'searchLaptops'
+1491473794397	Rename method 'deleteLaptop'
+1491475844608	Rename field 'dimention'

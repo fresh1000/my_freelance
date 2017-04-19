@@ -1,0 +1,121 @@
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import java.util.Vector;
+
+public class Test {
+
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+		Class cls = Rectangle.class;
+		Vector c1 = new Vector<Double>();
+		Class cls1 = Vector.class;
+		Method mAdd = cls1.getMethod("add", double.class);
+		double a = 12.32;
+		mAdd.invoke(c1, 12.2);
+		System.out.println(c1.toString());
+		
+		
+		
+		System.out.println("Поля:");
+		// выводим поля класса
+		Field[] fields = cls.getDeclaredFields();
+		for (Field field : fields) {
+			System.out.println(
+					" " + getModifiers(field.getModifiers()) + getType(field.getType()) + " " + field.getName() + ";");
+		}
+
+		System.out.println("Конструкторы:");
+		// выводим констукторы класса
+		Constructor[] constructors = cls.getDeclaredConstructors();
+		for (Constructor c : constructors) {
+			System.out.print(" " + getModifiers(c.getModifiers()) + cls.getSimpleName() + "(");
+			System.out.print(getParameters(c.getParameterTypes()));
+			System.out.println(")");
+		}
+
+		// выводим методы класса
+		System.out.println("Методы класса: ");
+		Method[] methods = cls.getDeclaredMethods();
+		for (Method m : methods) {
+			// получаем аннотации
+			Annotation[] annotations = m.getAnnotations();
+			System.out.print(" ");
+			for (Annotation a : annotations)
+				System.out.print(a.annotationType().getSimpleName());
+
+			System.out
+					.print("" + getModifiers(m.getModifiers()) + getType(m.getReturnType()) + " " + m.getName() + "(");
+			System.out.print(getParameters(m.getParameterTypes()));
+			System.out.println(")");
+		}
+		
+		
+		System.out.println();	
+		try {
+			Rectangle rf = new Rectangle(1243, 123.2);
+			System.out.println("Значение полей при создании: " + rf.toString());
+			Field fldA = rf.getClass().getDeclaredField("a");
+			Field fldB = rf.getClass().getDeclaredField("b");
+			fldA.setAccessible(true);
+			fldA.set(rf, 6);
+			fldB.setAccessible(true);
+			fldB.set(rf, 8);
+			System.out.println("Значение полей после изменения: " + rf.toString());
+			System.out.println();
+			Class[] paramTypes = new Class[] { double.class, double.class }; 
+			Method mDiag = cls.getDeclaredMethod("calcDiagonal", paramTypes);
+			mDiag.setAccessible(true);
+			Object[] arg = new Object[] { new Double(6), new Double(8) }; 
+			Double diagonal = (Double) mDiag.invoke(rf, arg); 
+			System.out.println("Результат вызова приватного метода calcDiagonal с парамерами (6, 8): " + diagonal);
+			
+			Method mArea = cls.getMethod("calcArea", paramTypes);
+			mArea.setAccessible(true);
+			double area = (Double) mArea.invoke(rf, arg);
+			System.out.println("Результат вызова публичного метода calcArea с парамерами (6, 8): " + area);
+			
+			Method mPer = cls.getMethod("calcPerimeter", paramTypes);
+			mPer.setAccessible(true);
+			double perimeter = (Double) mPer.invoke(rf, arg);
+			System.out.println("Результат вызова публичного метода calcPerimeter с парамерами (6, 8): " + perimeter);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		
+	}
+
+	static String getModifiers(int m) {
+		String modifiers = "";
+		if (Modifier.isPublic(m))
+			modifiers += "public ";
+		if (Modifier.isProtected(m))
+			modifiers += "protected ";
+		if (Modifier.isPrivate(m))
+			modifiers += "private ";
+		if (Modifier.isStatic(m))
+			modifiers += "static ";
+		if (Modifier.isAbstract(m))
+			modifiers += "abstract ";
+		return modifiers;
+	}
+
+	static String getType(Class clazz) {
+		String type = clazz.isArray() ? clazz.getComponentType().getSimpleName() : clazz.getSimpleName();
+		if (clazz.isArray())
+			type += "[]";
+		return type;
+	}
+
+	static String getParameters(Class[] params) {
+		String p = "";
+		for (int i = 0, size = params.length; i < size; i++) {
+			if (i > 0)
+				p += ", ";
+			p += getType(params[i]) + " param" + (i+1);
+		}
+		return p;
+	}
+
+}

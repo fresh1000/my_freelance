@@ -1,0 +1,15 @@
+1491245212120	Move compilation units
+1491247606990	Delete element
+1491303120868	Encapsulate field 'strength'
+1491303186358	Encapsulate field 'name'
+1491303318275	Encapsulate field 'health'
+1491303339324	Encapsulate field 'health'
+1491303352334	Encapsulate field 'health'
+1491316471303	Rename type 'Dragon'
+1491317184359	Delete element
+1491317196051	Rename type 'FlyingDragon'
+1491317332369	Encapsulate field 'canFly'
+1491394221004	Rename local variable 'index1'
+1491394232791	Rename local variable 'index1'
+1491394251264	Rename local variable 'index1'
+1491395095811	Delete elements

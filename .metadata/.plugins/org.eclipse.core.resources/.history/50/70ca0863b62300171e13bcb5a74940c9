@@ -1,0 +1,27 @@
+import java.awt.Color;
+
+/**
+ * TestHeadPhone
+ * Class TestHeadPhone test a HeadPhone class.
+ *
+ * Date:
+ * @author (your name)
+ */
+public class TestHeadPhone {
+
+	public static void main(String[] args) {
+
+		HeadPhone headPhone1 = new HeadPhone();
+		HeadPhone headPhone2 = new HeadPhone();
+		HeadPhone headPhone3 = new HeadPhone();
+		
+		headPhone1.setHeadPhoneColor(Color.BLUE);
+		headPhone1.setPluggedIn(true);
+		headPhone1.changeVolume(2);
+		headPhone1.setHeadPhoneModel("LD-213");
+		headPhone1.setManufacturer("LG");
+		System.out.println(headPhone1.toString());
+
+	}
+
+}

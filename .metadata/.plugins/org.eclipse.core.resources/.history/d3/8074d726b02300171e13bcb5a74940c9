@@ -1,0 +1,9 @@
+
+public class HeadPhone {
+	final int LOW = 1;
+	final int MEDIUM = 2;
+	final int HIGH = 3;
+	private int volume = MEDIUM;
+	private boolean pluggedIn = false;
+	
+}

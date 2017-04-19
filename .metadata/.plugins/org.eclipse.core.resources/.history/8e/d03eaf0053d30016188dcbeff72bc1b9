@@ -1,9 +1,0 @@
-package source;
-
-public class DlgCity extends Dlg{
-
-	public Object createObject() throws Exception {
-		return null;
-	}
-	
-}

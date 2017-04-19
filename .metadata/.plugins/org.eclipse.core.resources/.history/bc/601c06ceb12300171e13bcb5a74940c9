@@ -1,0 +1,11 @@
+
+public class TestHeadPhone {
+
+	public static void main(String[] args) {
+
+		HeadPhone headPhone = new HeadPhone();
+		headPhone.setHeadPhoneColor("WHITE");
+		
+	}
+
+}

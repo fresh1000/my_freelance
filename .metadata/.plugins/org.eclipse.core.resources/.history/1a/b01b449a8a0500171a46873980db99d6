@@ -1,0 +1,25 @@
+import java.lang.reflect.*;
+import java.util.Vector;
+
+public class Testeee {
+
+	public static void main(String[] args) {
+		try {
+			Vector c1 = new Vector();
+			c1.add(12.2);
+			Class cls1 = Vector.class;
+			Class[] paramTypes = new Class[] { double.class };  
+			Oblect obj = new Double(12.2);
+			Method mAdd = cls1.getMethod("add", Object.class);
+			Object obj = mAdd.
+			mAdd.setAccessible(true);
+			Double a = new Double(12.32);
+			mAdd.invoke(c1, 12);
+			System.out.println(c1.toString());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,61 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Enrolment {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		File file1 = new File("student1.txt");
+		FileReader file = new FileReader(file1);
+		Scanner input = new Scanner(file);
+		String line1 = null;
+		String line2 = null;
+		String line3 = null;
+		String line4 = null;
+		String[] lineVec = null;
+		String firstName = null;
+		String lastName = null;
+		String course = null;
+		int studentNumber = 0;
+		String account = null;
+		String fullName = null;
+		String email = null;
+		int countLine = 0;
+		while (input.hasNextLine()) {
+			if(countLine == 0) {
+				line = input.nextLine();
+				lineVec = line.split(" ");
+				firstName = lineVec[2];
+			}
+			if(countLine == 1) {
+				line = input.nextLine();
+				lineVec = line.split(" ");
+				lastName = lineVec[2];
+			}
+			if(countLine == 2) {
+				line = input.nextLine();
+				lineVec = line.split(" ");
+				course = lineVec[1];
+			}
+			if(countLine == 3) {
+				line = input.nextLine();
+				lineVec = line.split(" ");
+				studentNumber = Integer.parseInt(lineVec[2]);
+			}
+			if(countLine == 4) {
+				line = input.nextLine();
+				lineVec = line.split(" ");
+				account = lineVec[2];
+			}
+			countLine++;
+		}
+		
+		fullName = firstName + lastName;
+		email = account + "@uow.edu.au";
+		Student std = new Student(fullName, studentNumber, email, course);
+		std.displayStudInfo();
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;temp&apos; in &apos;Pyramid.PrintPyramid.main(...)&apos; to &apos;tempSpaces&apos;&#x0D;&#x0A;- Original project: &apos;#162126&apos;&#x0D;&#x0A;- Original element: &apos;Pyramid.PrintPyramid.main(String[]).temp&apos;&#x0D;&#x0A;- Renamed element: &apos;temp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;temp&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Pyramid{PrintPyramid.java[PrintPyramid~main~\[QString;@temp!165!176!172!175!I!0!false" name="tempSpaces" references="true" stamp="1487794076355" version="1.0"/>
+</session>

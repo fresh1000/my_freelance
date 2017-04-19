@@ -1,0 +1,7 @@
+
+public class Student {
+	private String fullName;
+	private int stdNumber;
+	private String email;
+	
+}

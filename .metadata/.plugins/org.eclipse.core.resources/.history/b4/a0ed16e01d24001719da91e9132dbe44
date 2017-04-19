@@ -1,0 +1,13 @@
+
+public class MyClass {
+	public String r;
+	public MyClass() {
+		r = "One";
+	}
+	
+	public String toString() {
+		return r;
+	}
+	
+	
+}

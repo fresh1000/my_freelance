@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;str2ind&apos; in &apos;ExersciseList.swap(...)&apos; to &apos;end&apos;&#x0D;&#x0A;- Original project: &apos;Exercise&apos;&#x0D;&#x0A;- Original element: &apos;ExersciseList.swap(LinkedList&lt;String&gt;, int, String, int, String).str2ind&apos;&#x0D;&#x0A;- Renamed element: &apos;str2ind&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;str2ind&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{ExersciseList.java[ExersciseList~swap~QLinkedList\&lt;QString;&gt;;~I~QString;~I~QString;@str2ind!534!544!538!544!I!0!true" name="end" references="true" stamp="1489838501323" version="1.0"/>
+</session>

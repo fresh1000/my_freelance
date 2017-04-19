@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="C:\Users\Yura\Downloads\api\YahooFinanceAPI-3.5.0-bin\YahooFinanceAPI-3.5.0" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -25,7 +28,7 @@
 	<section name="javadoc">
 		<item value="private" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="C:\Users\Yura\workspace\#153095\javadoc.xml" key="antpath"/>
+		<item value="C:\Users\Yura\workspace\#167730\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -35,36 +38,27 @@
 		<item value="E:\JDK\bin\javadoc.exe" key="javadoc_command_history"/>
 		<item value="1.8" key="source"/>
 		<item value="true" key="version"/>
+		<item value="MW" key="doctitle"/>
 		<item value="" key="docletname"/>
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="C:\Users\Yura\workspace\#153095\bin\pizza" key="destdir"/>
+		<item value="C:\Users\Yura\workspace\#167730\" key="destdir"/>
 		<item value="true" key="openinbrowser"/>
 		<section name="projects">
-			<section name="#147825">
-				<item value="C:\Users\Yura\workspace\#147825\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#147825\doc" key="destdir"/>
+			<section name="Account">
+				<item value="C:\Users\Yura\workspace\Account\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\Account\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="#63571">
-				<item value="C:\Users\Yura\workspace\#63571\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#63571\doc" key="destdir"/>
+			<section name="#159060">
+				<item value="C:\Users\Yura\workspace\#159060\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#159060\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="5Laba">
-				<item value="C:\Users\Yura\workspace\5Laba\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\5Laba\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#149835">
-				<item value="C:\Users\Yura\workspace\#149835\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#149835\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#146896">
-				<item value="C:\Users\Yura\workspace\#146896\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#146896\doc" key="destdir"/>
+			<section name="#160535">
+				<item value="C:\Users\Yura\workspace\#160535\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#160535\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="#147237">
@@ -72,14 +66,54 @@
 				<item value="C:\Users\Yura\workspace\#147237\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="BooksInTheBookcase">
+				<item value="C:\Users\Yura\workspace\BooksInTheBookcase\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\BooksInTheBookcase\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Exercise">
+				<item value="C:\Users\Yura\workspace\Exercise\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\Exercise\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#160418">
+				<item value="C:\Users\Yura\workspace\#160418\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#160418\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#151812">
+				<item value="C:\Users\Yura\workspace\#151812\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#151812\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Kub">
+				<item value="C:\Users\Yura\workspace\Kub\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\Kub\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#164739">
+				<item value="C:\Users\Yura\workspace\#164739\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#164739\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="List">
+				<item value="C:\Users\Yura\workspace\List\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\List\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#159178">
+				<item value="C:\Users\Yura\workspace\#159178\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#159178\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#155906">
+				<item value="C:\Users\Yura\workspace\#155906\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#155906\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="#148378">
 				<item value="C:\Users\Yura\workspace\#148378\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Yura\workspace\#148378\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#147466">
-				<item value="C:\Users\Yura\workspace\#147466\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#147466\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="#150012">
@@ -92,14 +126,74 @@
 				<item value="C:\Users\Yura\workspace\#150496\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="#158977">
+				<item value="C:\Users\Yura\workspace\#158977\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#158977\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#152711">
+				<item value="C:\Users\Yura\workspace\#152711\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#152711\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#155023">
+				<item value="C:\Users\Yura\workspace\#155023\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#155023\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#162945">
+				<item value="C:\Users\Yura\workspace\#162945\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#162945\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RGR">
+				<item value="C:\Users\Yura\workspace\RGR\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\RGR\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#152673">
+				<item value="C:\Users\Yura\workspace\#152673\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#152673\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#163664">
+				<item value="C:\Users\Yura\workspace\#163664\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#163664\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#65067">
+				<item value="C:\Users\Yura\workspace\#65067\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#65067\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="5Laba">
+				<item value="C:\Users\Yura\workspace\5Laba\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\5Laba\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#149835">
+				<item value="C:\Users\Yura\workspace\#149835\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#149835\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#161720">
+				<item value="C:\Users\Yura\workspace\#161720\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#161720\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#160353">
+				<item value="C:\Users\Yura\workspace\#160353\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#160353\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="#146491">
 				<item value="C:\Users\Yura\workspace\#146491\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Yura\workspace\#146491\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="#151962">
-				<item value="C:\Users\Yura\workspace\#151962\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#151962\doc" key="destdir"/>
+			<section name="ABS">
+				<item value="C:\Users\Yura\workspace\ABS\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\ABS\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="#148032">
@@ -112,14 +206,99 @@
 				<item value="C:\Users\Yura\workspace\#149482\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
+			<section name="#161329">
+				<item value="C:\Users\Yura\workspace\#161329\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#161329\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#159876">
+				<item value="C:\Users\Yura\workspace\#159876\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#159876\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#155510">
+				<item value="C:\Users\Yura\workspace\#155510\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#155510\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Pattern">
+				<item value="C:\Users\Yura\workspace\Pattern\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\Pattern\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#147825">
+				<item value="C:\Users\Yura\workspace\#147825\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#147825\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="zah113">
+				<item value="C:\Users\Yura\workspace\zah113\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\zah113\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#63571">
+				<item value="C:\Users\Yura\workspace\#63571\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#63571\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#154084">
+				<item value="C:\Users\Yura\workspace\#154084\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#154084\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#64580">
+				<item value="C:\Users\Yura\workspace\#64580\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#64580\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#146896">
+				<item value="C:\Users\Yura\workspace\#146896\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#146896\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#162126">
+				<item value="C:\Users\Yura\workspace\#162126\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#162126\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RGRminist">
+				<item value="C:\Users\Yura\workspace\RGRminist\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\RGRminist\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#147466">
+				<item value="C:\Users\Yura\workspace\#147466\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#147466\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Unit3">
+				<item value="C:\Users\Yura\workspace\Unit3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\Unit3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#167730">
+				<item value="C:\Users\Yura\workspace\#167730\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#167730\" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Pizza">
+				<item value="C:\Users\Yura\workspace\Pizza\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#153095\bin\pizza" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#151962">
+				<item value="C:\Users\Yura\workspace\#151962\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#151962\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="#66726">
+				<item value="C:\Users\Yura\workspace\#66726\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#66726\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="#150599">
 				<item value="C:\Users\Yura\workspace\#150599\javadoc.xml" key="antpath"/>
 				<item value="C:\Users\Yura\workspace\#150599\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#152711">
-				<item value="C:\Users\Yura\workspace\#152711\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#152711\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="#150635">
@@ -127,27 +306,15 @@
 				<item value="C:\Users\Yura\workspace\#150635\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="#151812">
-				<item value="C:\Users\Yura\workspace\#151812\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#151812\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="List">
-				<item value="C:\Users\Yura\workspace\List\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\List\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#153095">
-				<item value="C:\Users\Yura\workspace\#153095\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#153095\bin\pizza" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="#152673">
-				<item value="C:\Users\Yura\workspace\#152673\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\Yura\workspace\#152673\doc" key="destdir"/>
+			<section name="#163619">
+				<item value="C:\Users\Yura\workspace\#163619\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Yura\workspace\#163619\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item value="true" key="showtypes"/>
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
@@ -168,10 +335,13 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="AddGetterSetterDialog">
-		<item value="false" key="SortOrdering"/>
+		<item value="true" key="SortOrdering"/>
 		<item value="false" key="RemoveFinal"/>
 	</section>
 	<section name="JavaElementSearchActions">
+	</section>
+	<section name="WorkingSetModelAwareSelectionDialog">
+		<item value="true" key="ShowVisibleOnly"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
@@ -201,6 +371,14 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+		<item value="false" key="configure_problem_severity_dialog_id"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="467" key="DIALOG_HEIGHT"/>
+		<item value="428" key="DIALOG_X_ORIGIN"/>
+		<item value="61" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item value="true" key="ShowStatusLine"/>
@@ -218,8 +396,8 @@
 		<item value="528" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="696" key="DIALOG_HEIGHT"/>
-		<item value="427" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="686" key="DIALOG_X_ORIGIN"/>
+		<item value="40" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item value="516" key="DIALOG_WIDTH"/>

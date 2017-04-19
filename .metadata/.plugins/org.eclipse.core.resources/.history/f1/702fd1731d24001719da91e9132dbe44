@@ -1,0 +1,10 @@
+
+public class MyClass {
+	public String r = "One";
+
+	public String toString() {
+		return r;
+	}
+	
+	
+}

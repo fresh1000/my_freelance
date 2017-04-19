@@ -1,0 +1,17 @@
+package Test;
+
+class Circle {
+	private double r;
+
+	public void Circle(double r) {
+		this.r = r;
+	}
+
+	private double calCircumference() {
+		return 2 * Math.PI * r;
+	}
+
+	public  double calArea() {
+		return Math.PI * r * r;
+	}
+}

@@ -1,0 +1,6 @@
+
+public class HeadPhone {
+	private final int LOW = 1;
+	private final int MEDIUM = 2;
+	private final int HIGH = 3;
+}

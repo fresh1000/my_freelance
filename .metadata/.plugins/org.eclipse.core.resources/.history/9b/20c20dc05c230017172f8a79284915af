@@ -1,0 +1,47 @@
+
+public class Subject {
+	private String sCode;
+	private String session;
+	private int year;
+	
+	public Subject() {
+		this.sCode = null;
+		this.session = null;
+		this.year = 0;
+	}
+	
+	public Subject(Subject other) {
+		
+	}
+	
+	public Subject(String sCode, String session, int year) {
+		this.sCode = sCode;
+		this.session = session;
+		this.year = year;
+	}
+
+	public String getsCode() {
+		return sCode;
+	}
+
+	public String getSession() {
+		return session;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setsCode(String sCode) {
+		this.sCode = sCode;
+	}
+
+	public void setSession(String session) {
+		this.session = session;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+}

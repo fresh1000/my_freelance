@@ -1,0 +1,19 @@
+
+public class MyClass {
+	public String r;
+	public MyClass() {
+		r = "One";
+	}
+	static void changeVar(int a) {
+		a = 100;
+	}
+
+	static void changeObj(MyClass obj) {
+		obj = null;
+	}
+	public String toString() {
+		return r;
+	}
+	
+	
+}

@@ -1,0 +1,89 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Enrolment {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		File file1 = new File("student1.txt");
+		FileReader file = new FileReader(file1);
+		Scanner input = new Scanner(file);
+		String line1;
+		String line2;
+		String line3;
+		String line4;
+		String line5;
+		String[] lineVec;
+		String firstName = null;
+		String lastName = null;
+		String course;
+		int studentNumber;
+		String account = null;
+		String fullName;
+		String email;
+		
+		line1 = input.nextLine();
+		line2 = input.nextLine();
+		line3 = input.nextLine();
+		line4 = input.nextLine();
+		line5 = input.nextLine();
+		
+		lineVec = line1.split(" ");
+		firstName = lineVec[2];
+		
+		lineVec = line2.split(" ");
+		lastName = lineVec[2];
+		
+		lineVec = line3.split(" ");
+		course = lineVec[1];
+		
+		lineVec = line4.split(" ");
+		studentNumber = Integer.parseInt(lineVec[1]);
+		
+		lineVec = line1.split(" ");
+		
+		System.out.println(line1);
+		System.out.println(line2);
+		System.out.println(line3);
+		System.out.println(line4);
+		System.out.println(line5);
+		
+		
+//		while (input.hasNextLine()) {
+//			if(countLine == 0) {
+//				line = input.nextLine();
+//				lineVec = line.split(" ");
+//				firstName = lineVec[2];
+//			}
+//			if(countLine == 1) {
+//				line = input.nextLine();
+//				lineVec = line.split(" ");
+//				lastName = lineVec[2];
+//			}
+//			if(countLine == 2) {
+//				line = input.nextLine();
+//				lineVec = line.split(" ");
+//				course = lineVec[1];
+//			}
+//			if(countLine == 3) {
+//				line = input.nextLine();
+//				lineVec = line.split(" ");
+//				studentNumber = Integer.parseInt(lineVec[2]);
+//			}
+//			if(countLine == 4) {
+//				line = input.nextLine();
+//				lineVec = line.split(" ");
+//				account = lineVec[2];
+//			}
+//			countLine++;
+//		}
+		
+//		fullName = firstName + lastName;
+//		email = account + "@uow.edu.au";
+//		Student std = new Student(fullName, studentNumber, email, course);
+//		std.displayStudInfo();
+	}
+
+}

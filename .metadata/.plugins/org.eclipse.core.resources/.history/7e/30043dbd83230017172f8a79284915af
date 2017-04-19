@@ -1,0 +1,28 @@
+
+public class Product {
+	private String name;
+	private double price;
+	private int scanCode;
+	private static int numObjects;
+	
+	public Product(String string, double d) {
+		numObjects++;
+	}
+
+	public static String getNumberInStock() {
+		return null;
+	}
+
+	public String getName() {
+		return null;
+	}
+
+	public void changePrice(double d) {
+		
+	}
+
+	public int getNumObjects() {
+		return numObjects;
+	}
+
+}

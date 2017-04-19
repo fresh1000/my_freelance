@@ -1,9 +1,0 @@
-package source;
-
-public class DlgStation extends  Dlg {
-
-	public Object createObject() throws Exception {
-		return null;
-	}
-
-}
