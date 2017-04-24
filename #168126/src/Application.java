@@ -30,8 +30,9 @@ public class Application {
 		return dateFormat.format(date);
 	}
 
+	
 	/**
-	 * Method addAsset to add a laptop or phone
+	 * Method addAsset to add a laptop or phone 
 	 * 
 	 */
 	private static void addAsset() {
@@ -58,13 +59,13 @@ public class Application {
 		}
 
 	}
-
+	
 	/**
 	 * Method addLaptop to add a laptop with its attributes to the arraylist
 	 * asset
 	 */
 	private static void addLaptop() {
-		Scanner scanner = new Scanner(System.in);
+	    Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the serial number");
 		String serialNumber = scanner.next();
 		System.out.println("Enter the brand");
@@ -76,12 +77,12 @@ public class Application {
 		Asset laptop = new Laptop(serialNumber, brand, model, processor);
 		assetPool.add(laptop);
 	}
-
 	/**
-	 * Method addPhone to add a phone with its attributes to the arraylist asset
+	 * Method addPhone to add a phone with its attributes to the arraylist
+	 * asset
 	 */
 	private static void addPhone() {
-		Scanner scanner = new Scanner(System.in);
+	    Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the serial number");
 		String serialNumber = scanner.next();
 		System.out.println("Enter the brand");
@@ -98,8 +99,8 @@ public class Application {
 
 	/**
 	 * Method deleteLaptop checks to see if a asset is assigned to an employee,
-	 * if not - it searches the arraylist of asset using the serial number, and
-	 * deletes that asset entry
+	 * if not - it searches the arraylist of asset using the serial number,
+	 * and deletes that asset entry
 	 */
 	private static void deleteAsset() {
 		System.out.println("Enter the serial number of the laptop");
@@ -111,10 +112,10 @@ public class Application {
 			if (laptopIsDeleted) {
 				System.out.println("Deleting successfully");
 			} else {
-				System.out.println("Laptop is assigned to an employee");
+				System.out.println("Asset is assigned to an employee");
 			}
 		} else {
-			System.out.println("No laptop with this serial number !");
+			System.out.println("No asset with this serial number !");
 		}
 	}
 
@@ -124,24 +125,23 @@ public class Application {
 	 * sets the assigned asset date and the expected due date
 	 */
 	private static void searchAsset() {
-		System.out.println("Enter the serial number of the laptop");
+		System.out.println("Enter the serial number of the asset");
 		String serialNumber = scanner.nextLine();
 		Asset laptop = assetPool.getLaptop(serialNumber);
 		boolean laptopNotExist = laptop == null;
 		if (laptopNotExist) {
-			System.out.println("No laptop with this serial number !");
+			System.out.println("No asset with this serial number !");
 			return;
 		}
-		System.out.printf("%-15s%-15s%-15s%-15s", "serialNumber", "brand", "model", "other");
+		System.out.printf("%-30s%-30s%-30s%-30s\n", "serialNumber", "brand", "model", "other");
 		System.out.println(".................................................................");
-		System.out.printf("%-15s%-15s%-15s%-15s", laptop.getSerialNumber(), laptop.getBrand(), laptop.getModel(), laptop.toString());
+		System.out.printf("%-30s%-30s%-30s%-30s\n", laptop.getSerialNumber(), laptop.getBrand(), laptop.getModel(), laptop.toString());
 
 		if (laptop.isAssigned()) {
 			Employee employee = laptop.getEmployee();
-			System.out.printf(
-					"%15s%15s%15s%15s%15s Employee number \t Employee name \t Employee location \t assigned date \t returning date");
+			System.out.printf("%-30s%-30s%-30s%-30s%-30s\n", "Employee number","Employee name","Employee location","assigned date","returning date");
 			System.out.println(".................................................................");
-			System.out.printf("%15s%15s%15s%15s%15s", employee.getNumber(), employee.getName(), employee.getLocation(),
+			System.out.printf("%-30s%-30s%-30s%-30s%-30s\n", employee.getNumber(), employee.getName(), employee.getLocation(),
 					employee.getAssignedLaptopDate(), laptop.getDueDate());
 
 		}
@@ -149,19 +149,20 @@ public class Application {
 
 	/**
 	 * Method assignLaptop first checks if the asset is assigned, if not it
-	 * assigns the asset to the mentioned employee and sets the expected duedate
+	 * assigns the asset to the mentioned employee and sets the expected
+	 * duedate
 	 */
 	private static void assignAsset() {
-		System.out.println("Enter the serial number of the laptop");
+		System.out.println("Enter the serial number of the asset");
 		String serialNumber = scanner.nextLine();
 		Asset laptop = assetPool.getLaptop(serialNumber);
 		boolean laptotNotExist = laptop == null;
 		if (laptotNotExist) {
-			System.out.println("No laptop with this serial number !");
+			System.out.println("No asset with this serial number !");
 			return;
 		}
 		if (laptop.isAssigned()) {
-			System.out.println("Laptop already assigned !");
+			System.out.println("Asset already assigned !");
 			return;
 		}
 		System.out.println("Enter the employee name");
@@ -181,12 +182,12 @@ public class Application {
 	 * already assigned if not,
 	 */
 	private static void returnAsset() {
-		System.out.println("Enter the serial number of the laptop");
+		System.out.println("Enter the serial number of the asset");
 		String serialNumber = scanner.nextLine();
 		Asset laptop = assetPool.getLaptop(serialNumber);
 		boolean laptotNotExist = laptop == null;
 		if (laptotNotExist) {
-			System.out.println("No laptop with this serial number !");
+			System.out.println("No asset with this serial number !");
 			return;
 		}
 		if (!laptop.isAssigned()) {
@@ -204,45 +205,37 @@ public class Application {
 	 */
 	private static void printAssignedAsset() {
 		Employee e;
-		System.out.printf("%s%20s%20s%20s%20s%20s%20s%20s%20s%20s\n", "Type", "Serial No", "Brand", "Model",
-				"Assigned To", "Location", "Assigned Date", "Due Date", "Overdue By", "Other");
+		System.out.printf("%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s\n","Type", "Serial No", "Brand", "Model", "Assigned To",
+				"Location", "Assigned Date", "Due Date", "Overdue By","ByLate Fee", "Other");
 		System.out.println("................................................................................."
 				+ "..........................................................");
 		for (Asset laptop : assetPool.assignedLaptops()) {
 			e = laptop.getEmployee();
 			String line = "";
 			long overdue;
-			// line += laptop.getClass().getName() + "\t"+ "\t";
-			// line += laptop.getSerialNumber() + "\t"+ "\t";
-			// line += laptop.getModel() + "\t"+ "\t";
-			// line += e.getName() + "\t"+ "\t";
-			// line += e.getLocation() + "\t"+ "\t";
-			e.setAssignedLaptopDate(new Date(117, 3, 1));
 			Date assignedDate = e.getAssignedLaptopDate();
-			// line += formatDate(assignedDate) + "\t"+ "\t";
-			// line += formatDate(laptop.getDueDate());
 			Date returnedDate = laptop.getEmployee().getReturningLaptopDate();
 			if (!(returnedDate == null)) {
 
 				if (returnedDate.getTime() > laptop.getDueDate().getTime()) {
+				 
 					overdue = returnedDate.getTime() - laptop.getDueDate().getTime();
-					line = milliSecondToDays(overdue) + " days ";
-					System.out.printf("%s%20s%20s%20s%20s%20s%20s%20s%20s%20s\n", laptop.getClass().getName(), laptop.getSerialNumber(), laptop.getBrand(),
+					line = milliSecondToDays(overdue) + " days";
+					System.out.printf("%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s\n", laptop.getClass().getName(), laptop.getSerialNumber(), laptop.getBrand(),
 							laptop.getModel(), e.getName(), e.getLocation(), formatDate(assignedDate),
 							formatDate(laptop.getDueDate()), line, laptop.toString());
-					// line += "\t"+ "\t" + milliSecondToDays(overdue) + "
-					// days";
-					// line += "\t"+ "\t" + laptop.toString();
 				}
 			} else {
 				overdue = 0;
-				String temp = String.valueOf(overdue) +  " days ";
-				System.out.printf("%s%15s%15s%15s%15s%15s%15s%15s%15s%15s\n", laptop.getClass().getName(), laptop.getSerialNumber(), laptop.getBrand(),
+				String temp = String.valueOf(overdue)+ " days";
+				System.out.printf("%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20.2f%-20s\n", laptop.getClass().getName(), laptop.getSerialNumber(), laptop.getBrand(),
 						laptop.getModel(), e.getName(), e.getLocation(), formatDate(assignedDate),
-						formatDate(laptop.getDueDate()), temp, laptop.toString());
+						formatDate(laptop.getDueDate()), temp,laptop.getOverdueFee(), laptop.toString());
 
 			}
 
+			System.out.printf(line);
+			System.out.println();
 		}
 	}
 

@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
  
 
-public class Asset {
+public abstract class Asset implements Comparable<Asset>{
     // variables and attribute declaration
 	private String serialNumber;
 	private String brand;
@@ -93,17 +93,7 @@ public class Asset {
 	/**
 	 * Method to calculate overdue fee
 	 */
-	public double getOverdueFee() {
-		double overdueFee = 10;
-		Calendar can = Calendar.getInstance();
-		Date over = can.getTime();
-		if(dueDate.getTime() < over.getTime()) {
-		
-			overdueFee = overdueFee * (over.getDay() - dueDate.getDay());
-			return overdueFee;
-		}
-		return 0;
-	}
+	public abstract double getOverdueFee();
 	
     /**
      * Method isAssigned returns the laptop attributes if assigned
@@ -111,6 +101,13 @@ public class Asset {
 	public boolean isAssigned() {
 		return assigned;
 	}
+	/*
+	 * Method for sort assets by brand.
+	 * 
+	 */
+	public int compareTo(Asset o) {
+        return brand.compareTo(o.brand);
+    }
 
 	public void setAssigned(boolean assigned) {
 		this.assigned = assigned;

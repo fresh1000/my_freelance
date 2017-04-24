@@ -1,0 +1,12 @@
+package part2;
+
+public class Student {
+	private int score;
+	public String name;
+	
+	public void curve(double average) {
+		if(this.score < average) {
+			this.score += 5;
+		}
+	}
+}

@@ -1,3 +1,5 @@
+import java.util.Calendar;
+import java.util.Date;
 
 public class Phone extends Asset{
 	// variables and attribute declaration
@@ -10,6 +12,20 @@ public class Phone extends Asset{
 		super(serialNumber, brand, model);
 		this.dimension = dimension;
 		this.display = display;
+	}
+	/**
+	 * Method to calculate overdue fee
+	 */
+	public double getOverdueFee() {
+		double overdueFee = 10;
+		Calendar can = Calendar.getInstance();
+		Date over = can.getTime();
+		if(getDueDate().getTime() < over.getTime()) {
+		
+			overdueFee = overdueFee * (over.getDay() - getDueDate().getDay());
+			return overdueFee;
+		}
+		return 0;
 	}
 
 	/**
@@ -30,6 +46,7 @@ public class Phone extends Asset{
 	public void setDimension(String dimension) {
 		this.dimension = dimension;
 	}
+	
 
 	public String toString() {
 		return "Display " + display;

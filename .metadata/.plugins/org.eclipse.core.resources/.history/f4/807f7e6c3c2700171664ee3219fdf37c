@@ -1,0 +1,8 @@
+
+public class Toaster {
+	public boolean isOn = false;
+	
+	public Toaster() {
+		
+	}
+}

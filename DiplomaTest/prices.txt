@@ -1,0 +1,7 @@
+AMZN:907.41
+AAPL:143.64
+FB:145.47
+TSLA:308.03
+Google:862.76
+Microsoft:67.53
+Luxsoft:61.8

@@ -65,6 +65,7 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Yura\Desktop\#170345.zip"/>
 			<item value="C:\Users\Yura\Desktop\Pattern.zip"/>
 			<item value="C:\Users\Yura\Desktop\HeadPhone.zip"/>
 			<item value="C:\Users\Yura\Desktop\AnimalInfo.zip"/>
@@ -84,7 +85,6 @@
 			<item value="#159876.zip"/>
 			<item value="#159178.zip"/>
 			<item value="#159060.zip"/>
-			<item value="#158977_1.zip"/>
 		</list>
 	</section>
 </section>

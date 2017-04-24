@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -10,6 +11,7 @@ import java.util.List;
  *
  * @author (Harini Ramadas - 100653718)
  * @version (22nd March 17)
+ * @param <T>
  */
 
 
@@ -43,6 +45,7 @@ public class AssetPool {
 	 * Method getLaptop returns the laptop with the unique serial number
 	 */
 	public Asset getLaptop(String laptopSerialNumber){
+		sortAssets();
 		Asset searchedOne = null;
 		for (Asset laptop : laptops) {
 			if(laptop.getSerialNumber().equals(laptopSerialNumber)){
@@ -57,6 +60,7 @@ public class AssetPool {
 	 * laptops arraylist
 	 */
 	public List<Asset> availableLaptops(){
+        sortAssets();
 		List<Asset> availableLaptops = new ArrayList<>();
 		for (Asset laptop : laptops) {
 			if(laptop.isAvailable())
@@ -69,11 +73,18 @@ public class AssetPool {
 	 * laptops arraylist
 	 */
 	public List<Asset> assignedLaptops(){
+		sortAssets();
 		List<Asset> assignedLaptops = new ArrayList<>();
 		for (Asset laptop : laptops) {
 			if(laptop.isAssigned())
 				assignedLaptops.add(laptop);
 		}
 		return assignedLaptops;
+	}
+	/*
+	 * Sort assets.
+	 */
+	public void sortAssets() {
+		Collections.sort(laptops);
 	}
 }
