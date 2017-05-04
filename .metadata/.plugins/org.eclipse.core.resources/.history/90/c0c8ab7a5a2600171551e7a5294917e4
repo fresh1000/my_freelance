@@ -1,8 +1,0 @@
-package part1;
-
-public class Book {
-	private String author;
-	private String title;
-	private int pubYear;
-	private String genre;
-}

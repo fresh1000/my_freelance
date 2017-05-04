@@ -5,5 +5,11 @@ public class Superman extends SuperHero{
 			System.out.println("I can fly!");
 			
 		}
+
+		@Override
+		public void identity() {
+			// TODO Auto-generated method stub
+			
+		}
 		
 	}

@@ -1,9 +1,0 @@
-package part2;
-
-public class TestScores {
-
-	public static void main(String[] args) {
-		Student[] students = new Student[5];
-	}
-
-}

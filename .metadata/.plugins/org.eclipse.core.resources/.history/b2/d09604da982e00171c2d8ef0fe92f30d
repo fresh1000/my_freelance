@@ -1,0 +1,14 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		File file1 = new File("Books.txt");
+		FileReader file = new FileReader(file1);
+		Scanner input = new Scanner(file);
+	}
+
+}
