@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="DecoratorEmployee.Employee"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.SafetyCoordinator"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.Recruiter"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.DepartmentHead"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.ResponsibilityDecorator"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.Manager"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.SalariedEmployee"/>
-<fullyQualifiedTypeName name="DecoratorEmployee.ProductionDesigner"/>
-<fullyQualifiedTypeName name="AutoFactory.Toyota"/>
-<fullyQualifiedTypeName name="AutoFactory.Subaru"/>
-<fullyQualifiedTypeName name="AutoFactory.AsiaToyota"/>
 <fullyQualifiedTypeName name="AutoFactory.EuropeSubaru"/>
 <fullyQualifiedTypeName name="AutoFactory.NorthAmericaToyota"/>
 <fullyQualifiedTypeName name="AutoFactory.NorthAmericaSubaru"/>
@@ -29,10 +18,8 @@
 <fullyQualifiedTypeName name="game.Room"/>
 <fullyQualifiedTypeName name="Asset"/>
 <fullyQualifiedTypeName name="Laptop"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="Item"/>
 <fullyQualifiedTypeName name="java.awt.ItemSelectable"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.VirtualMachineError"/>
 <fullyQualifiedTypeName name="Animal"/>
 <fullyQualifiedTypeName name="Dog"/>
@@ -41,7 +28,6 @@
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="Subject"/>
 <fullyQualifiedTypeName name="Circle"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="HeadPhone"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -49,9 +35,7 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="part1.Book"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="part2.Student"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Toaster"/>
 <fullyQualifiedTypeName name="yahoofinance.Stock"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
@@ -60,4 +44,20 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="Account"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Ship"/>
+<fullyQualifiedTypeName name="CargoShip"/>
+<fullyQualifiedTypeName name="CruiseShip"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.awt.geom.Point2D"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.awt.Point"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

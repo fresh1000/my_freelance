@@ -1,0 +1,27 @@
+package edu.ilstu.program4;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		FileReader file = new FileReader("dis.csv");
+		Scanner sc = new Scanner(file);
+		
+		ArrayList<Double> prices = new ArrayList<>();
+		String line = null;
+		String[] lineArray;
+		
+		while(sc.hasNextLine()) {
+			line = sc.nextLine();
+			lineArray = line.split(",");
+			prices.add(Double.parseDouble(lineArray[1]));
+		}
+
+		
+	}
+
+}

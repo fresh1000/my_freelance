@@ -1,0 +1,16 @@
+
+public class ConvToPI {
+
+	public static void main(String[] args) {
+		double aN = 0;
+		int n = 1000;
+		for (int i = 0; i < n; i++) {
+			aN += Math.pow(-1, i)/(2*i + 1);
+		}
+		
+		aN *= 4;
+		System.out.println(aN);
+		
+	}
+
+}

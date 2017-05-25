@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;satScores&apos; in &apos;MIT131116.scoresSAT()&apos; to &apos;examResult&apos;&#x0D;&#x0A;- Original project: &apos;#173978&apos;&#x0D;&#x0A;- Original element: &apos;MIT131116.scoresSAT().satScores&apos;&#x0D;&#x0A;- Renamed element: &apos;satScores&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;satScores&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{MIT131116.java[MIT131116~scoresSAT@satScores!240!256!247!255!D!0!false" name="examResult" references="true" stamp="1495272556872" version="1.0"/>
+</session>

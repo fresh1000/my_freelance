@@ -1,0 +1,10 @@
+package edu.ilstu.program4;
+
+import javax.swing.*;
+import java.awt.*;
+
+class DrawPrices extends JPanel {
+
+	public static void main(String[] args) {
+	}
+}

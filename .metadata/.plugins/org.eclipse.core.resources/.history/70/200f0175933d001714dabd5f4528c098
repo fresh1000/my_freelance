@@ -1,0 +1,9 @@
+
+public class MaxPositive {
+
+	public static void main(String[] args) {
+		int maxPos = 1000;
+		boolean found = false;
+	}
+
+}

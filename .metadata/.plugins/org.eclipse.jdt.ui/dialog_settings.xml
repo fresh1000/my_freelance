@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\Yura\Downloads\api\YahooFinanceAPI-3.5.0-bin\YahooFinanceAPI-3.5.0" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="E:\eclipse\jre\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
@@ -439,7 +439,7 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="0" key="index"/>
+		<item value="4" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
