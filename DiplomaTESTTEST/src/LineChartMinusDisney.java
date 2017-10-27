@@ -1,11 +1,5 @@
-package edu.ilstu.program4;
-
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -14,15 +8,14 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
- 
- 
-public class LineChartSample extends Application {
+
+public class LineChartMinusDisney extends Application {
  
     @Override public void start(Stage stage) throws FileNotFoundException {
         stage.setTitle("Line Chart Sample");
         final CategoryAxis xAxis = new CategoryAxis();
         final NumberAxis yAxis = new NumberAxis();
-        xAxis.setLabel("Month");       
+        xAxis.setLabel("Day");       
         
         final LineChart<String,Number> lineChart = 
                 new LineChart<String,Number>(xAxis,yAxis);
@@ -30,17 +23,20 @@ public class LineChartSample extends Application {
         lineChart.setTitle("Stock Monitoring Disney, 2016-2017");
                                 
         XYChart.Series series = new XYChart.Series();
-        series.setName("Disney");
-        Disney dis = new Disney();
-        
+        Disney disney = new Disney();
+        series.setName("All minus: $" + disney.allMinus);
         ArrayList<String> date = new ArrayList<>();
         ArrayList<Double> price = new ArrayList<>();
-        date = dis.getDate();
-        price = dis.getPrice();
+        ArrayList<Double> profit = new ArrayList<>();
+        date = disney.getDate();
+        profit = disney.getProfit();
         
-        for (int i = date.size() - 1;i >= 0 ; i -= 10) {
-        	series.getData().add(new XYChart.Data(date.get(i), price.get(i)));
+        for (int i = profit.size() - 1;i >= 0 ; i--) {
+        	if(profit.get(i) < 0) {
+        		series.getData().add(new XYChart.Data(date.get(i), profit.get(i)*(-1)));
+        	}
         }
+        
         
         Scene scene  = new Scene(lineChart,900,700);
         lineChart.getData().add(series);

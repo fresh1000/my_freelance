@@ -1,11 +1,7 @@
-package edu.ilstu.program4;
+
 
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -16,13 +12,13 @@ import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
  
  
-public class LineChartSample extends Application {
+public class LineChartDisney extends Application {
  
     @Override public void start(Stage stage) throws FileNotFoundException {
         stage.setTitle("Line Chart Sample");
         final CategoryAxis xAxis = new CategoryAxis();
         final NumberAxis yAxis = new NumberAxis();
-        xAxis.setLabel("Month");       
+        xAxis.setLabel("Day");       
         
         final LineChart<String,Number> lineChart = 
                 new LineChart<String,Number>(xAxis,yAxis);
@@ -32,7 +28,6 @@ public class LineChartSample extends Application {
         XYChart.Series series = new XYChart.Series();
         series.setName("Disney");
         Disney dis = new Disney();
-        
         ArrayList<String> date = new ArrayList<>();
         ArrayList<Double> price = new ArrayList<>();
         date = dis.getDate();
@@ -44,7 +39,7 @@ public class LineChartSample extends Application {
         
         Scene scene  = new Scene(lineChart,900,700);
         lineChart.getData().add(series);
-       
+        
         stage.setScene(scene);
         stage.show();
     }

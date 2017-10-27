@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/Yahoo3.8/YahooFinanceAPI-3.8.0-bin/YahooFinanceAPI-3.8.0/YahooFinanceAPI-3.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/Yahoo3.8/YahooFinanceAPI-3.8.0-bin/YahooFinanceAPI-3.8.0/YahooFinanceAPI-3.8.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/Yahoo3.8/YahooFinanceAPI-3.8.0-bin/YahooFinanceAPI-3.8.0/YahooFinanceAPI-3.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/jch/jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/jch/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yura/Downloads/jch/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
