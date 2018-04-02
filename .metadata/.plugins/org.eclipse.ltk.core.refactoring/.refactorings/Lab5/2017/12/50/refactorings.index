@@ -1,0 +1,23 @@
+1512418941868	Delete element
+1512418947354	Delete element
+1512419007597	Delete element
+1512419465558	Rename type 'CeasarCodec'
+1512419481180	Rename type 'CountLetters'
+1512419494558	Rename type 'CountPairs'
+1512419514545	Rename type 'FileHelper'
+1512419528814	Rename type 'ICountFrequency'
+1512419628101	Rename type 'RussianCharHelper'
+1512419677296	Rename field 'alpha'
+1512419781563	Rename local variable 'ruAlpha'
+1512419841805	Rename type 'Part1'
+1512419855940	Rename type 'Part2'
+1512419920569	Rename type 'Part3'
+1512419939736	Rename method 'readFile'
+1512419989714	Rename local variable 'message'
+1512419996267	Rename local variable 'cipher'
+1512420018007	Rename local variable 'decodedMessage'
+1512420037719	Rename method 'encode'
+1512420048432	Rename method 'decode'
+1512420061081	Rename method 'writeFile'
+1512420092996	Rename method 'countTokens'
+1512420131012	Rename local variable 'counter'

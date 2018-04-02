@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MIT140017S&apos; to &apos;MIT140017SLogicFoo&apos;&#x0D;&#x0A;- Original project: &apos;#179253&apos;&#x0D;&#x0A;- Original element: &apos;MIT140017S&apos;&#x0D;&#x0A;- Renamed element: &apos;MIT140017SLogicFoo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MIT140017S&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{MIT140017S.java[MIT140017S" matchStrategy="1" name="MIT140017SLogicFoo" qualified="false" references="true" similarDeclarations="false" stamp="1504527841301" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Book\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=iSBN\ author\ title\ publisher\ publicationYear\ publicationMonth\ publicationDay\ pageCount
+comment1.target=Book(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int)
+comment10.params=o
+comment10.target=int\ compareTo(Book)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getISBN()
+comment3.params=
+comment3.target=java.lang.String\ getAuthor()
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment5.params=
+comment5.target=java.lang.String\ getPublisher()
+comment6.params=
+comment6.target=int\ getPublicationYear()
+comment7.params=
+comment7.target=int\ getPublicationMonth()
+comment8.params=
+comment8.target=int\ getPublicationDay()
+comment9.params=
+comment9.target=int\ getPageCount()
+numComments=12

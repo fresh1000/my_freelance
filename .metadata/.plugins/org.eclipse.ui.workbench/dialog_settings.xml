@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="124" key="DIALOG_X_ORIGIN"/>
-		<item value="36" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+		<item value="56" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item value="false" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+		<item value=".java" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
+		<item value="org.eclipse.fx.ide.css.CssDsl" key="EditorSelectionDialog.STORE_ID_DESCR"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="-1" key="dialogHeight"/>
@@ -19,8 +24,9 @@
 	<section name="PreferencesImportWizard">
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.wb.swing.ApplicationWindow" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.wb.swing.JFrame" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="com.objectaid.uml.new"/>
 			<item value="org.eclipse.wb"/>
 			<item value="org.eclipse.wb/org.eclipse.wb.swing"/>
@@ -35,7 +41,7 @@
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
-		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
@@ -57,6 +63,8 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Yura\Downloads\RGR_Paralel(1)"/>
+			<item value="C:\"/>
 			<item value="C:\Users\Yura\Desktop\YahooFinanceAPI-3.5.0-bin\Libraries"/>
 			<item value="C:\Users\Yura\Desktop\147825\Base\BaseCode"/>
 		</list>
@@ -65,6 +73,17 @@
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Yura\Desktop\CountFiles.zip"/>
+			<item value="C:\Users\Yura\Desktop\Geometric.zip"/>
+			<item value="C:\Users\Yura\Desktop\PascalTriangle.zip"/>
+			<item value="C:\Users\Yura\Desktop\Para.zip"/>
+			<item value="C:\Users\Yura\Desktop\Characters.zip"/>
+			<item value="C:\Users\Yura\Desktop\Project.zip"/>
+			<item value="C:\Users\Yura\Desktop\InvestCalc.zip"/>
+			<item value="C:\Users\Yura\Desktop\#181750.zip"/>
+			<item value="C:\Users\Yura\Desktop\#179253.zip"/>
+			<item value="C:\Users\Yura\Desktop\#178076.zip"/>
+			<item value="C:\Users\Yura\Desktop\DiplommmaTest.zip"/>
 			<item value="C:\Users\Yura\Desktop\Assignment-02.zip"/>
 			<item value="C:\Users\Yura\Desktop\#170345.zip"/>
 			<item value="C:\Users\Yura\Desktop\Pattern.zip"/>
@@ -74,17 +93,6 @@
 			<item value="C:\Users\Yura\Desktop\#165900.zip"/>
 			<item value="C:\Users\Yura\Desktop\Unit3.zip"/>
 			<item value="C:\Users\Yura\Desktop\Exercise.zip"/>
-			<item value="C:\Users\Yura\Desktop\ABS.zip"/>
-			<item value="C:\Users\Yura\Desktop\Account.zip"/>
-			<item value="C:\Users\Yura\Desktop\#165153.zip"/>
-			<item value="C:\Users\Yura\Desktop\Kub.zip"/>
-			<item value="C:\Users\Yura\Desktop\#161329.zip"/>
-			<item value="C:\Users\Yura\Desktop\#161720.zip"/>
-			<item value="C:\Users\Yura\Desktop\#160418.zip"/>
-			<item value="#160418.zip"/>
-			<item value="#65067.zip"/>
-			<item value="#159876.zip"/>
-			<item value="#159178.zip"/>
 		</list>
 	</section>
 </section>

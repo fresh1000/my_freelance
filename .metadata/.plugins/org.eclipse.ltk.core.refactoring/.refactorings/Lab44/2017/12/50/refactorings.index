@@ -1,0 +1,8 @@
+1512420890479	Rename type 'ICharHelper'
+1512420902941	Rename type 'FileHelper'
+1512420915136	Rename type 'RussianCharHelper'
+1512420931174	Rename type 'SubstitutionCodec'
+1512420942167	Rename type 'Task1'
+1512421112410	Rename local variable 'chars'
+1512421121859	Rename method 'readFile'
+1512421135793	Rename method 'writeFile'

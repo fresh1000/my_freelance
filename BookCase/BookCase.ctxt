@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BookCase
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BookCase\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=book
+comment1.target=void\ addBook(Book)
+comment2.params=ISBN
+comment2.target=void\ search(java.lang.String)
+comment3.params=
+comment3.target=void\ clearTheBookcase()
+comment4.params=
+comment4.target=java.util.ArrayList\ getBooks()
+comment5.params=ISBN
+comment5.target=void\ deleteBook(java.lang.String)
+comment6.params=
+comment6.target=void\ sortByISBN()
+comment7.params=
+comment7.target=void\ readFromFile()
+comment8.params=
+comment8.target=void\ writeToFile()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

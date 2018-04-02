@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="E:\eclipse\jre\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\Yura\Downloads\jch\jfreechart-1.0.19\jfreechart-1.0.19\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
@@ -367,7 +367,7 @@
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="681" key="DIALOG_X_ORIGIN"/>
+			<item value="345" key="DIALOG_X_ORIGIN"/>
 			<item value="61" key="DIALOG_Y_ORIGIN"/>
 		</section>
 	</section>
@@ -439,7 +439,7 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="4" key="index"/>
+		<item value="2" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
